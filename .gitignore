@@ -1,0 +1,17 @@
+# 依存関係（超巨大なので無視する）
+node_modules/
+
+# ビルド出力（自動生成されるので無視する）
+dist/
+build/
+
+# Netlifyの設定ファイル
+.netlify/
+
+# システムファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数（APIキーなどを隠すため）
+.env
+.env.local
