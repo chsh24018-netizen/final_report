@@ -230,7 +230,7 @@ function Main() {
           <Box sx={{ display: 'flex', gap: 1, mb: 1.5 }}>
             <TextField 
               fullWidth 
-              placeholder="例: Tokyo または 東京"
+              placeholder="例: Tokyo または 東京都"
               variant="outlined"
               value={city}
               onChange={(e) => setCity(e.target.value)}
